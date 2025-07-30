@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Trusted advocate in Rwanda, handling family law, criminal defense, corporate law, and more. Book a consultation.">
+  <meta name="keywords" content="advocate, lawyer, family law, criminal defense, legal services in Rwanda">
+  <meta name="author" content="Me MUNEZERO Pacific">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Me Pacific</title>
+</head>
+
+<body>
+  <div
+    style="display: flex; justify-content: space-between; align-items: center; background-color: #000000; color: #ffffff; padding-inline: 30px; border-bottom: 1px solid goldenrod;">
+    <div style="display: flex; justify-content: center; align-items: center;" class="top-div">
+      <img src="./assets/real-logo.png" alt="">
+      <h1 style="color: #fff; margin-left: 0;">MP</h1>
+    </div>
+    <div style="display: flex;">
+      <div
+        style="display: flex; align-items: center; justify-content: center; gap: 10px; padding-inline: 15px; border-right: 1px solid gray;">
+        <i class="fa fa-phone-alt" style="color: goldenrod; font-size: 35px;"></i>
+        <div style="display: block;">
+          <h3 style="color: #daa520;">+250 780 010 005</h3>
+          <p style="color: gray;">pamunezero@gmail.com</p>
+        </div>
+      </div>
+
+      <div
+        style="display: flex; align-items: center; justify-content: center; gap: 10px; padding-inline: 15px; border-right: 1px solid gray;">
+        <i class="fa fa-home" style="color: goldenrod; font-size: 35px;"></i>
+        <div style="display: block;">
+          <h3 style="color: #daa520;">190 Makuza M Plaza</h3>
+          <p style="color: gray;">Kigali, RW</p>
+        </div>
+      </div>
+
+      <div
+        style="display: flex; align-items: center; justify-content: center; gap: 10px; padding-inline: 15px; border-right: 1px solid gray;">
+        <i class="fa fa-clock" style="color: goldenrod; font-size: 35px;"></i>
+        <div style="display: block;">
+          <h3 style="color: #daa520;">Mon - Fri: 8AM - 6PM</h3>
+          <p style="color: gray;">Sat: 9AM - 2PM</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <ul style="display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0; padding: 0;">
+      <!-- Search form li at the start -->
+      <li style="margin: 0; flex: 0 0 auto;">
+        <form style="display: flex; align-items: center;" action="#" method="get" onsubmit="return false;">
+          <input type="search" placeholder="Search..."
+            style="padding: 7px 16px; border-radius: 18px; border: 1px solid #d1d5db; font-size: 16px; outline: none; background: #fff; color: #0b1e3e; min-width: 120px;"
+            aria-label="Search">
+          <button type="submit"
+            style="background: goldenrod; border: none; border-radius: 50%; width: 32px; height: 32px; margin-left: 6px; display: flex; align-items: center; justify-content: center; cursor: pointer;">
+            <i class="fa fa-search" style="color: #0b1e3e; font-size: 1em;"></i>
+          </button>
+        </form>
+      </li>
+      <!-- Other menu items at the end -->
+      <li style="display: flex; gap: 16px; margin: 0; flex: 1 1 auto; justify-content: flex-end;">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="practical.html">Practical areas</a>
+        <a class="nav-link" href="">Testimonials</a>
+        <a class="nav-link" href="@faq">FAQ</a>
+        <a class="nav-link" href="">Blog</a>
+        <a class="nav-link" href="">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="hero-section" style="background-image: url(./assets/bg_image.jpg); height: 90vh;">
+    <div style="margin-top: 90px; text-align: center;" class="div1">
+      <h1 style="font-size: 50px; opacity: 0.9; margin-bottom: 20px; font-weight: bold; color: #ffffff; opacity: 0.6;">
+        Me MUNEZERO Pacific</h1>
+      <style>
+        .quote-anim {
+          display: inline-block;
+          transition: none;
+        }
+
+        .quote-slide-out {
+          animation: quoteSlideOut 0.5s forwards;
+        }
+
+        .quote-slide-in {
+          animation: quoteSlideIn 0.5s forwards;
+        }
+
+        @keyframes quoteSlideOut {
+          0% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+
+          100% {
+            opacity: 0;
+            transform: translateX(80px);
+          }
+        }
+
+        @keyframes quoteSlideIn {
+          0% {
+            opacity: 0;
+            transform: translateX(-80px);
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+      </style>
+      <blockquote id="dynamic-quote" class="trust-hero"
+        style="color: #ffffff; opacity: 0.7; font-size: 25px; margin-bottom: 30px; background: none; border: none; box-shadow: none; padding: 0; text-align: center;">
+        <span
+          style="font-size: 80px; font-weight: bold; color: #ffd700; vertical-align: -30px; line-height: 0.7; font-family: 'Merriweather', serif; margin-right: 10px; display: inline-block;">“</span>
+        <span id="quote-text" class="quote-anim">We understand that the most effective counsel requires more than just
+          our clients’</span>
+        <span
+          style="font-size: 80px; font-weight: bold; color: #ffd700; vertical-align: -30px; line-height: 0.7; font-family: 'Merriweather', serif; margin-left: 10px; display: inline-block;">”</span>
+      </blockquote>
+      <script>
+        const quotes = [
+          "We understand that the most effective counsel requires more than just our clients’",
+          "Justice is the constant and perpetual will to allot to every man his due.",
+          "Your peace of mind is our highest priority.",
+          "Integrity, professionalism, and dedication guide every case we take.",
+          "Legal challenges are opportunities for solutions and growth.",
+          "Every client deserves clear, honest, and timely advice.",
+          "We stand by you, every step of your legal journey.",
+          "Empowering you with knowledge and advocacy."
+        ];
+        let quoteIndex = 0;
+        const quoteText = document.getElementById('quote-text');
+
+        function animateQuoteChange(nextQuote) {
+          // Slide out
+          quoteText.classList.remove('quote-slide-in');
+          quoteText.classList.add('quote-slide-out');
+          setTimeout(() => {
+            // Change text after slide out
+            quoteText.textContent = nextQuote;
+            quoteText.classList.remove('quote-slide-out');
+            quoteText.classList.add('quote-slide-in');
+          }, 500); // match animation duration
+        }
+
+        function showNextQuote() {
+          quoteIndex = (quoteIndex + 1) % quotes.length;
+          animateQuoteChange(quotes[quoteIndex]);
+        }
+
+        // Optional: reset to normal after animation
+        quoteText.addEventListener('animationend', function (e) {
+          if (e.animationName === 'quoteSlideIn') {
+            quoteText.classList.remove('quote-slide-in');
+          }
+        });
+
+        setInterval(showNextQuote, 4000);
+      </script>
+      <div style="display: flex; gap: 20px;">
+        <button class="book-button">
+          <i class="fa fa-calendar" aria-hidden="true" style="font-size: 1.2em;"></i>
+          Book a Consultation
+        </button>
+        <button
+          style="padding: 15px 23px; background-color: transparent; border: 2px solid #daa520; border-radius: 20px; margin-bottom: 10px; cursor: pointer; display: flex; align-items: center; gap: 10px; color: #daa520; font-size: 20px;">
+          <i class="fa fa-exclamation-circle" aria-hidden="true" style="font-size: 1.2em;"></i>
+          Need Urgent Legal Help? Call Now
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Additional Content for Advocate Landing Page -->
+  <section style="padding: 60px 0 0 0; background-image: url(./assets/body-bg.jpg);">
+    <div style="max-width: 1200px; margin: 0 0 0 30px;">
+      <h4 class="about-word">About Us</h4>
+      <h2 style="margin-bottom: 20px; font-size: 2.5rem;">Who we are</h2>
+      <p
+        style="color: #333; font-size: 1.6rem; margin-bottom: 20px; max-width: 100%; margin-right: auto; line-height: 1.8; text-align: justify;">
+        I am Me MUNEZERO Pacific, a dedicated advocate with a passion for justice and a commitment to providing
+        personalized legal solutions. My practice is built on integrity, professionalism, and a deep
+        understanding of the law. Whether you are facing a complex legal challenge or need guidance on everyday
+        legal matters, I am here to help you navigate the legal system with confidence.
+      </p>
+      <p
+        style="color: #333; font-size: 1.6rem; margin-bottom: 100px; max-width: 100%; margin-right: auto; line-height: 1.8; text-align: justify;">
+        My practice is built on integrity, professionalism, and a deep
+        understanding of the law. Whether you are facing a complex legal challenge or need guidance on everyday
+        legal matters, I am here to help you navigate the legal system with confidence.
+      </p>
+    </div>
+    <h1 class="mission">Mission & Vision</h1>
+    <div
+      style="display: flex; justify-content: center; align-items: center; gap: 20px; background-color: #1c2e4e; padding: 50px 20px;">
+      <div
+        style="padding: 50px 60px; text-align: center; line-height: 30px; border-radius: 10px; background-color: rgba(255, 255, 255, 0.3);">
+        <p style="font-size: 70px; margin-bottom: 20px;">🎯</p>
+        <h1 style="font-size: 30px; margin-bottom: 20px;">Our Vision</h1>
+        <p style="font-size: 20px;">To be Rwanda’s Leading Commercial Law Firm, offering commercially wide-ranging legal
+          solutions and meeting the legal needs of our Clients not only in Rwanda but across the globe.</p>
+      </div>
+      <div
+        style="padding: 50px 60px; text-align: center; line-height: 30px; border-radius: 10px; background-color: rgba(255, 255, 255, 0.3);">
+        <p style="font-size: 70px; margin-bottom: 20px;">👨‍⚖️</p>
+        <h1 style="font-size: 30px; margin-bottom: 20px;">Our Mission</h1>
+        <p style="font-size: 20px;">To be a professional and highly proficient law firm of choice to our Clients in
+          Rwanda and across the globe through rendering accurate and high quality legal services.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="#services"
+    style="background: linear-gradient(120deg, #f8f8f8 60%, #e9e4d7 100%); padding: 80px 0 450px 0; background-image: url(./assets/body-bg.jpg); background-size: cover; position: relative; display: flex; flex-direction: column; align-items: center;">
+    <div style="max-width: 1100px; margin: 0 auto;">
+      <h2
+        style="color: #0b1e3e; text-align: center; font-size: 2.6rem; margin-bottom: 50px; letter-spacing: 1px; font-weight: 700;">
+        <span style="border-bottom: 4px solid #daa520; padding-bottom: 6px;">Why Choose Us?</span>
+      </h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center;">
+        <div
+          style="flex: 1 1 220px; min-width: 260px; max-width: 320px; background: #fff; border-radius: 18px; box-shadow: 0 6px 24px rgba(218,165,32,0.10), 0 1.5px 6px rgba(0,0,0,0.04); padding: 45px 35px; display: flex; flex-direction: column; align-items: center; transition: transform 0.2s, box-shadow 0.2s;">
+          <div style="font-size: 2.8rem; color: #daa520; margin-bottom: 18px;">
+            <i class="fa fa-user-check" aria-hidden="true"></i>
+          </div>
+          <h3 style="color: #daa520; margin-bottom: 14px; font-size: 1.3rem; font-weight: 600; letter-spacing: 0.5px;">
+            Personalized Attention</h3>
+          <p style="color: #333; font-size: 1.08rem; text-align: center;">Every client receives tailored legal advice
+            and support, ensuring your unique needs are met.</p>
+        </div>
+        <div
+          style="flex: 1 1 220px; min-width: 260px; max-width: 320px; background: #fff; border-radius: 18px; box-shadow: 0 6px 24px rgba(218,165,32,0.10), 0 1.5px 6px rgba(0,0,0,0.04); padding: 45px 35px; display: flex; flex-direction: column; align-items: center; transition: transform 0.2s, box-shadow 0.2s;">
+          <div style="font-size: 2.8rem; color: #daa520; margin-bottom: 18px;">
+            <i class="fa fa-trophy" aria-hidden="true"></i>
+          </div>
+          <h3 style="color: #daa520; margin-bottom: 14px; font-size: 1.3rem; font-weight: 600; letter-spacing: 0.5px;">
+            Proven Track Record</h3>
+          <p style="color: #333; font-size: 1.08rem; text-align: center;">Over 10 years of successful case outcomes and
+            satisfied clients across various legal fields.</p>
+        </div>
+        <div
+          style="flex: 1 1 220px; min-width: 260px; max-width: 320px; background: #fff; border-radius: 18px; box-shadow: 0 6px 24px rgba(218,165,32,0.10), 0 1.5px 6px rgba(0,0,0,0.04); padding: 45px 35px; display: flex; flex-direction: column; align-items: center; transition: transform 0.2s, box-shadow 0.2s;">
+          <div style="font-size: 2.8rem; color: #daa520; margin-bottom: 18px;">
+            <i class="fa fa-balance-scale" aria-hidden="true"></i>
+          </div>
+          <h3 style="color: #daa520; margin-bottom: 14px; font-size: 1.3rem; font-weight: 600; letter-spacing: 0.5px;">
+            Integrity & Ethics</h3>
+          <p style="color: #333; font-size: 1.08rem; text-align: center;">We uphold the highest standards of integrity
+            and ethical practice in every case we handle.</p>
+        </div>
+        <div
+          style="flex: 1 1 220px; min-width: 260px; max-width: 320px; background: #fff; border-radius: 18px; box-shadow: 0 6px 24px rgba(218,165,32,0.10), 0 1.5px 6px rgba(0,0,0,0.04); padding: 45px 35px; display: flex; flex-direction: column; align-items: center; transition: transform 0.2s, box-shadow 0.2s;">
+          <div style="font-size: 2.8rem; color: #daa520; margin-bottom: 18px;">
+            <i class="fa fa-user-check" aria-hidden="true"></i>
+          </div>
+          <h3 style="color: #daa520; margin-bottom: 14px; font-size: 1.3rem; font-weight: 600; letter-spacing: 0.5px;">
+            Personalized Attention</h3>
+          <p style="color: #333; font-size: 1.08rem; text-align: center;">Every client receives tailored legal advice
+            and support, ensuring your unique needs are met.</p>
+        </div>
+        <div
+          style="flex: 1 1 220px; min-width: 260px; max-width: 320px; background: #fff; border-radius: 18px; box-shadow: 0 6px 24px rgba(218,165,32,0.10), 0 1.5px 6px rgba(0,0,0,0.04); padding: 45px 35px; display: flex; flex-direction: column; align-items: center; transition: transform 0.2s, box-shadow 0.2s;">
+          <div style="font-size: 2.8rem; color: #daa520; margin-bottom: 18px;">
+            <i class="fa fa-trophy" aria-hidden="true"></i>
+          </div>
+          <h3 style="color: #daa520; margin-bottom: 14px; font-size: 1.3rem; font-weight: 600; letter-spacing: 0.5px;">
+            Proven Track Record</h3>
+          <p style="color: #333; font-size: 1.08rem; text-align: center;">Over 10 years of successful case outcomes and
+            satisfied clients across various legal fields.</p>
+        </div>
+        <div
+          style="flex: 1 1 220px; min-width: 260px; max-width: 320px; background: #fff; border-radius: 18px; box-shadow: 0 6px 24px rgba(218,165,32,0.10), 0 1.5px 6px rgba(0,0,0,0.04); padding: 45px 35px; display: flex; flex-direction: column; align-items: center; transition: transform 0.2s, box-shadow 0.2s;">
+          <div style="font-size: 2.8rem; color: #daa520; margin-bottom: 18px;">
+            <i class="fa fa-balance-scale" aria-hidden="true"></i>
+          </div>
+          <h3 style="color: #daa520; margin-bottom: 14px; font-size: 1.3rem; font-weight: 600; letter-spacing: 0.5px;">
+            Integrity & Ethics</h3>
+          <p style="color: #333; font-size: 1.08rem; text-align: center;">We uphold the highest standards of integrity
+            and ethical practice in every case we handle.</p>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top: 120px;">
+      <div class="news-ticker">
+        <h1 class="ticker-left">*SENIOR ADVOCATES FROM KIGALI-RWANDA*</h1>
+      </div>
+      <div class="ticker-down">
+        <h1 class="ticker-right">*LET'S WORK TOGETHER. WE'RE OPEN FOR NEW CASES*</h1>
+      </div>
+    </div>
+    <div class="practical-areas">
+      <h1 style="color: white; text-align: center; font-size: 40px; margin: 20px;">Practical Areas</h1>
+      <div style="display: grid; grid-template: auto auto/ repeat(3, 1fr); gap: 20px;">
+        <div class="practical-card">
+          <i class="fa fa-users" style="font-size: 2.5rem; color: #daa520; margin-bottom: 20px;"></i>
+          <h1>Family law</h1>
+        </div>
+        <div class="practical-card">
+          <i class="fa fa-briefcase" style="font-size: 2.5rem; color: #daa520; margin-bottom: 20px;"></i>
+          <h1>Business Registration</h1>
+        </div>
+        <div class="practical-card">
+          <i class="fa fa-plane-departure" style="font-size: 2.5rem; color: #daa520; margin-bottom: 20px;"></i>
+          <h1>Immigration</h1>
+        </div>
+        <div class="practical-card">
+          <i class="fa fa-gavel" style="font-size: 2.5rem; color: #daa520; margin-bottom: 20px;"></i>
+          <h1>Legal Representation & Advice</h1>
+        </div>
+        <div class="practical-card">
+          <i class="fa fa-user-tie" style="font-size: 2.5rem; color: #daa520; margin-bottom: 20px;"></i>
+          <h1>Employment</h1>
+        </div>
+        <div class="practical-card">
+          <i class="fa fa-balance-scale" style="font-size: 2.5rem; color: #daa520; margin-bottom: 20px;"></i>
+          <h1>Litigation and Arbitration</h1>
+        </div>
+        <div class="practical-card">
+          <i class="fa fa-lightbulb" style="font-size: 2.5rem; color: #daa520; margin-bottom: 20px;"></i>
+          <h1>Intellectual Property</h1>
+        </div>
+        <div class="practical-card">
+          <i class="fa fa-building" style="font-size: 2.5rem; color: #daa520; margin-bottom: 20px;"></i>
+          <h1>Real Estate Law</h1>
+        </div>
+        <div class="practical-card">
+          <i class="fa fa-university" style="font-size: 2.5rem; color: #daa520; margin-bottom: 20px;"></i>
+          <h1>Banking & Finance</h1>
+        </div>
+      </div>
+  </section>
+
+  <section
+    style="background: #fff; padding: 420px 0 60px 0; border-top: 4px solid #1c2e4e; background-image: url(./assets/body-bg.jpg);">
+    <h1 style="text-align: center; font-size: 40px;">Our 5-Step Legal Process</h1>
+    <div style="display: flex; gap: 10PX; padding: 20px; justify-content: center; align-items: center;">
+      <div
+        style="box-shadow: 0 8px 24px rgba(255, 255, 255, 0.0), 0 1.5px 6px rgba(0,0,0,0.2);; border-radius: 50%; height: 200px; width: 250px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1>1.</h1>
+        <h4 style="text-align: center;">Case Evaluation & Client Interview</h4>
+      </div>
+      <span><i class="fa fa-arrow-right"></i></span>
+      <div
+        style="box-shadow: 0 8px 24px rgba(255, 255, 255, 0.0), 0 1.5px 6px rgba(0,0,0,0.2); border-radius: 50%; height: 200px; width: 250px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1>2.</h1>
+        <h4 style="text-align: center;">Legal Research & Strategy Development</h4>
+      </div>
+      <span><i class="fa fa-arrow-right"></i></span>
+      <div
+        style="box-shadow: 0 8px 24px rgba(255, 255, 255, 0.0), 0 1.5px 6px rgba(0,0,0,0.2); border-radius: 50%; height: 200px; width: 250px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1>3.</h1>
+        <h4 style="text-align: center;">Evidence Collection & Documentation</h4>
+      </div>
+      <span><i class="fa fa-arrow-right"></i></span>
+      <div
+        style="box-shadow: 0 8px 24px rgba(255, 255, 255, 0.0), 0 1.5px 6px rgba(0,0,0,0.2); border-radius: 50%; height: 200px; width: 250px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1>4.</h1>
+        <h4 style="text-align: center;">Representation in Court or Negotiations</h4>
+      </div>
+      <span><i class="fa fa-arrow-right"></i></span>
+      <div
+        style="box-shadow: 0 8px 24px rgba(255, 255, 255, 0.0), 0 1.5px 6px rgba(0,0,0,0.2); border-radius: 50%; height: 200px; width: 250px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1>5.</h1>
+        <h4 style="text-align: center;">Client Support & Final Resolution</h4>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section style="background: #f8f8f8; padding: 60px 30px;">
+    <div style="width: 100%; margin: 0 auto; text-align: center;">
+      <h4 class="about-word2">Testimonials</h4>
+      <h2 style="margin-bottom: 20px; font-size: 2rem; margin-bottom: 30px;">What Our Customers Say</h2>
+      <style>
+        .quote-anim2 {
+          display: inline-block;
+          transition: none;
+          font-size: 1.5rem;
+          letter-spacing: 2px;
+        }
+
+        .quote-slide-out2 {
+          animation: quoteSlideOut2 0.5s forwards;
+        }
+
+        .quote-slide-in2 {
+          animation: quoteSlideIn2 0.5s forwards;
+        }
+
+        @keyframes quoteSlideIn2 {
+          0% {
+            opacity: 0;
+            transform: translateX(80px);
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+
+        @keyframes quoteSlideOut2 {
+          0% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+
+          100% {
+            opacity: 0;
+            transform: translateX(-80px);
+          }
+        }
+      </style>
+      <blockquote>
+        <span class="quote-anim2">
+          <h2 id="name-text">Ghislain</h2>
+        </span><br>
+        <span
+          style="font-size: 50px; font-weight: bold; color: #ffd700; vertical-align: -30px; line-height: 0.7; font-family: 'Merriweather', serif; margin-right: 10px; display: inline-block;">“</span>
+        <span id="quote-text2" class="quote-anim2">He is like a savior, approximately the the price is cheap accroding
+          to the service</span>
+        <span
+          style="font-size: 50px; font-weight: bold; color: #ffd700; vertical-align: -30px; line-height: 0.7; font-family: 'Merriweather', serif; margin-left: 10px; display: inline-block;">”</span>
+      </blockquote>
+      <script>
+        const quotes2 = [
+          {
+            name: "Byimbo Ghislain",
+            test: "We understand that the most effective counsel requires more than just our clients’"
+          },
+          {
+            name: "Jean Pierre M",
+            test: "Justice is the constant and perpetual will to allot to every man his due.",
+          },
+          {
+            name: "Mwizerwa Parfait",
+            test: "Your peace of mind is our highest priority.",
+          },
+        ];
+
+        let textIndex = 0;
+        const quoteText2 = document.getElementById("quote-text2");
+        const nameText2 = document.getElementById("name-text");
+
+        function animateQuoteChange2(nextName, nextQuote) {
+          // Add exit animation
+          quoteText2.classList.remove("quote-slide-in2");
+          quoteText2.classList.add("quote-slide-out2");
+          nameText2.classList.remove("quote-slide-in2");
+          nameText2.classList.add("quote-slide-out2");
+
+          setTimeout(() => {
+            // Update content
+            quoteText2.textContent = nextQuote;
+            nameText2.textContent = nextName;
+
+            // Reset to slide-in animation
+            quoteText2.classList.remove("quote-slide-out2");
+            quoteText2.classList.add("quote-slide-in2");
+            nameText2.classList.remove("quote-slide-out2");
+            nameText2.classList.add("quote-slide-in2");
+          }, 500);
+        }
+
+        function nextText() {
+          textIndex = (textIndex + 1) % quotes2.length;
+          const next = quotes2[textIndex];
+          animateQuoteChange2(next.name, next.test);
+        }
+
+        setInterval(nextText, 4000);
+      </script>
+
+      <div>
+        <p></p>
+        <h3></h3>
+        <h2></h2>
+      </div>
+    </div>
+  </section>
+
+  <section style="background-image: url(./assets/body-bg.jpg); padding: 60px 30px;">
+    <div style="width: 100%; max-width: 800px; margin: 0 auto;">
+      <h2 style="color: #0b1e3e; font-size: 2rem; margin-bottom: 20px; text-align:center;">Frequently Asked Questions
+        (FAQs)</h2>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-button">
+            <span>What services do you offer?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>We offer legal consultation, case handling, corporate advisory, and representation in various legal
+              matters.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-button">
+            <span>How can I book an appointment?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>You can book an appointment via our website contact form or by calling our office during working hours.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-button">
+            <span>Do you offer free consultations?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Yes, we offer a free first consultation to understand your case and guide you on possible steps.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-button">
+            <span>What services do you offer?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>We offer legal consultation, case handling, corporate advisory, and representation in various legal
+              matters.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-button">
+            <span>How can I book an appointment?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>You can book an appointment via our website contact form or by calling our office during working hours.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-button">
+            <span>Do you offer free consultations?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Yes, we offer a free first consultation to understand your case and guide you on possible steps.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .accordion-button {
+      width: 100%;
+      background: #0b1e3e;
+      color: white;
+      text-align: left;
+      padding: 15px;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.3s;
+    }
+
+    .accordion-button:hover {
+      background: #14366b;
+    }
+
+    .accordion-content {
+      background: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.4s;
+      padding: 0 15px;
+      border-left: 3px solid #0b1e3e;
+    }
+
+    .accordion-content p {
+      margin: 15px 0;
+    }
+
+    .accordion-item.active .accordion-content {
+      max-height: 500px;
+      padding: 15px;
+    }
+
+    .accordion-item .icon {
+      font-size: 1.5rem;
+      transition: transform 0.3s;
+    }
+
+    .accordion-item.active .icon {
+      transform: rotate(180deg);
+    }
+  </style>
+
+  <script>
+    const accordionButtons = document.querySelectorAll('.accordion-button');
+
+    accordionButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        const parent = this.parentElement;
+        const icon = this.querySelector('.icon');
+
+        parent.classList.toggle('active');
+
+        // Close others
+        accordionButtons.forEach(btn => {
+          if (btn !== this) {
+            btn.parentElement.classList.remove('active');
+            btn.querySelector('.icon').textContent = '+';
+          }
+        });
+
+        // Toggle icon
+        if (parent.classList.contains('active')) {
+          icon.textContent = '–';
+        } else {
+          icon.textContent = '+';
+        }
+      });
+    });
+  </script>
+
+  <section style="background-color: #14366b; padding: 60px 30px;">
+    <div style="width: 100%; max-width: 800px; margin: 0 auto;">
+      <h2 style="color: #ffffff; font-size: 2rem; margin-bottom: 20px; text-align:center;">Our Blogs</h2>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+      <div style="height: 500px; width: 100%; display: block; border-radius: 15px; overflow: hidden;">
+        <div style="width: 100%; height: 65%; background-color: #0b1e3e;">
+          <img src="./assets/1.jpeg" alt=""
+            style="object-fit: cover; width: 100%; height: 100%; object-position: center; opacity: 0.5;">
+        </div>
+        <div
+          style="padding: 10px 20px 0 20px; width: 100%; height: 35%; background-color: #ffffff; border-radius: 10px 10px 0 0;">
+          <i class="fa fa-folder" style="margin-right: 5px; color: #daa520;"></i>Family law
+          <i class="fa fa-user" style="margin: 0 5px 0 20px; color: #daa520;"></i>Admin
+          <div style="margin: 0 0 0 -15px;">
+            <h2 style="margin: 20px 0 0 0; width: 400px; text-decoration: underline;">Common Legal Mistakes People Make
+              and How to Avoid Them Which will make you self sustainable</h2>
+          </div>
+        </div>
+      </div>
+      <div style="height: 500px; width: 100%; display: block; border-radius: 15px; overflow: hidden;">
+        <div style="width: 100%; height: 65%; background-color: #0b1e3e;">
+          <img src="./assets/2.jpeg" alt=""
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+        </div>
+        <div
+          style="width: 100%; height: 35%; background-color: #ffffff; border-radius: 10px 10px 0 0; padding: 10px 0 0 20px;">
+          <i class="fa fa-folder" style="margin-right: 5px; color: #daa520;"></i>Family law
+          <i class="fa fa-user" style="margin: 0 5px 0 20px; color: #daa520;"></i>Admin
+          <div style="margin: 0 0 0 -15px;">
+            <h2 style="margin: 20px 0 0 0; width: 400px; text-decoration: underline;">Family Law Explained: Your Rights
+              During Divorce and Custody Cases. This Rights should Guide you Well.</h2>
+          </div>
+        </div>
+      </div>
+      <div style="height: 500px; width: 100%; display: block; border-radius: 15px; overflow: hidden;">
+        <div style="width: 100%; height: 65%; background-color: #0b1e3e;">
+          <img src="./assets/3.jpeg" alt=""
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+        </div>
+        <div
+          style="padding: 10px 20px 0 20px; width: 100%; height: 35%; background-color: #ffffff; border-radius: 10px 10px 0 0; display: block;">
+          <i class="fa fa-folder" style="margin-right: 5px; color: #daa520;"></i>Family law
+          <i class="fa fa-user" style="margin: 0 5px 0 20px; color: #daa520;"></i>Admin
+          <div style="margin: 0 0 0 -15px; padding: 0;">
+            <h2 style="margin: 20px 0 0 0; width: 400px; text-decoration: underline;">Your Legal Rights as an Employee
+              working in Rwanda Working on Job Contract</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: #f8f8f8; padding: 60px 0; background-image: url(./assets/body-bg.jpg);">
+    <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+      <h2 style="color: #0b1e3e; font-size: 2.2rem; margin-bottom: 25px; letter-spacing: 1px;">Contact Us</h2>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-bottom: 40px; ">
+        <div
+          style="flex: 1; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(218,165,32,0.08); padding: 30px 20px; text-align: left;">
+          <h3 style="color: #daa520; margin-bottom: 10px; font-size: 1.2rem;"><i class="fa fa-envelope"
+              style="margin-right: 8px; color: #14366b;"></i>Email</h3>
+          <a href="mailto:info@mepacific.com"
+            style="color: #14366b; font-size: 1.1rem; text-decoration: underline;">info@mepacific.com</a>
+        </div>
+        <div
+          style="flex: 1; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(218,165,32,0.08); padding: 30px 20px; text-align: left;">
+          <h3 style="color: #daa520; margin-bottom: 10px; font-size: 1.2rem;"><i class="fa fa-phone-alt"
+              style="margin-right: 8px; color: #14366b;"></i>Phone</h3>
+          <a href="tel:+250780010005" style="color: #14366b; font-size: 1.1rem; text-decoration: underline;">+250 780
+            010 005</a>
+        </div>
+        <div
+          style="flex: 1; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(218,165,32,0.08); padding: 30px 20px; text-align: left;">
+          <h3 style="color: #daa520; margin-bottom: 10px; font-size: 1.2rem;"><i class="fa fa-map-marker-alt"
+              style="margin-right: 8px; color: #14366b;"></i>Office</h3>
+          <span style="color: #14366b; font-size: 1.1rem;">190 Makuza M Plaza, Kigali, Rwanda</span>
+        </div>
+      </div>
+      <div
+        style="background: #fff; border-radius: 15px; box-shadow: 0 2px 16px rgba(218,165,32,0.10); max-width: 900px; margin: 0 auto; padding: 35px 30px 30px 30px; text-align: left;">
+        <h3 style="color: #0b1e3e; margin-bottom: 18px; font-size: 1.3rem; text-align: center;">Send Us a Message</h3>
+        <form style="display: grid; grid-template: auto auto / repeat(2, 1fr); gap: 18px;">
+          <div style="display: flex; flex-direction: column;">
+            <label for="name" style="color: #14366b; font-weight: 500; margin-bottom: 5px;">Your Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"
+              style="padding: 12px 14px; border: 1.5px solid #daa520; border-radius: 8px; font-size: 1rem; outline: none; background: #f8f8f8;">
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <label for="email" style="color: #14366b; font-weight: 500; margin-bottom: 5px;">Subject</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your subject"
+              style="padding: 12px 14px; border: 1.5px solid #daa520; border-radius: 8px; font-size: 1rem; outline: none; background: #f8f8f8;">
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <label for="subject" style="color: #14366b; font-weight: 500; margin-bottom: 5px;">Email</label>
+            <input type="text" id="subject" name="subject" required placeholder="Enter your email"
+              style="padding: 12px 14px; border: 1.5px solid #daa520; border-radius: 8px; font-size: 1rem; outline: none; background: #f8f8f8;">
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <label for="subject" style="color: #14366b; font-weight: 500; margin-bottom: 5px;">Contact</label>
+            <input type="text" id="subject" name="subject" required placeholder="Enter your contact"
+              style="padding: 12px 14px; border: 1.5px solid #daa520; border-radius: 8px; font-size: 1rem; outline: none; background: #f8f8f8;">
+          </div>
+          <div style="display: flex; grid-column: 1 / -1; flex-direction: column;">
+            <label for="message" style="color: #14366b; font-weight: 500; margin-bottom: 5px;">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Type your message"
+              style="padding: 12px 14px; border: 1.5px solid #daa520; border-radius: 8px; font-size: 1rem; outline: none; background: #f8f8f8; resize: vertical;"></textarea>
+          </div>
+          <button type="submit"
+            style="grid-column: 1 / -1; margin-top: 10px; padding: 14px 0; background: #daa520; color: #fffbe6; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: background 0.2s;">
+            <i class="fa fa-paper-plane" style="margin-right: 8px;"></i>Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background: #0b1e3e; color: #fff; padding: 40px 0 0 0; border-top: 2px solid goldenrod;">
+    <div style="max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 40px; padding-bottom: 24px;">
+      <div style="flex: 1 1 300px; min-width: 220px; display: flex; flex-direction: column; align-items: flex-start; gap: 18px;">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <img src='./assets/logo.png' alt='Logo' style='height: 48px; width: 48px; border-radius: 8px; background: #fff;'/>
+          <span style="font-size: 1.4rem; font-weight: 700; letter-spacing: 1px; color: #daa520;">Me MUNEZERO Pacific</span>
+        </div>
+        <p style="margin: 0; color: #e0e0e0; font-size: 1rem; max-width: 320px;">Trusted Advocate in Rwanda, providing expert legal solutions with integrity and dedication.</p>
+        <div style="display: flex; gap: 16px; margin-top: 8px;">
+          <a href="https://www.linkedin.com/" target="_blank" style="color: #fff; font-size: 1.3rem; transition: color 0.2s;"><i class="fab fa-linkedin" style="transition: color 0.2s;"></i></a>
+          <a href="https://twitter.com/" target="_blank" style="color: #fff; font-size: 1.3rem; transition: color 0.2s;"><i class="fab fa-twitter" style="transition: color 0.2s;"></i></a>
+          <a href="mailto:pamunezero@gmail.com" style="color: #fff; font-size: 1.3rem; transition: color 0.2s;"><i class="fa fa-envelope" style="transition: color 0.2s;"></i></a>
+        </div>
+      </div>
+      <div style="flex: 1 1 200px; min-width: 180px; display: flex; flex-direction: column; align-items: flex-start; gap: 10px;">
+        <h4 style="color: #daa520; margin-bottom: 10px; font-size: 1.1rem;">Quick Links</h4>
+        <a href="index.html" style="color: #fff; text-decoration: none; margin-bottom: 4px; transition: color 0.2s;">Home</a>
+        <a href="about.html" style="color: #fff; text-decoration: none; margin-bottom: 4px; transition: color 0.2s;">About</a>
+        <a href="practical.html" style="color: #fff; text-decoration: none; margin-bottom: 4px; transition: color 0.2s;">Practical Areas</a>
+        <a href="#" style="color: #fff; text-decoration: none; margin-bottom: 4px; transition: color 0.2s;">Testimonials</a>
+        <!-- <a href="#" style="color: #fff; text-decoration: none; margin-bottom: 4px; transition: color 0.2s;">FAQ</a>
+        <a href="#" style="color: #fff; text-decoration: none; margin-bottom: 4px; transition: color 0.2s;">Blog</a>
+        <a href="#" style="color: #fff; text-decoration: none; margin-bottom: 4px; transition: color 0.2s;">Contact</a> -->
+      </div>
+    </div>
+    <div style="border-top: 1px solid #444; margin-top: 18px; padding: 18px 0 0 0; display: flex; justify-content: space-around; font-size: 1rem;">
+      <span>&copy; 2025 Me MUNEZERO Pacific. All rights reserved.</span> <SPan>Powered by Ghislain-Soft-Innovation</span>
+    </div>
+    <style>
+      footer a:hover, footer a:focus {
+        color: #daa520 !important;
+      }
+      @media (max-width: 800px) {
+        footer > div:first-child {
+          flex-direction: column !important;
+          gap: 32px !important;
+          align-items: flex-start !important;
+        }
+        footer > div > div {
+          align-items: flex-start !important;
+        }
+      }
+      @media (max-width: 600px) {
+        footer > div:first-child {
+          flex-direction: column !important;
+          gap: 24px !important;
+        }
+        footer > div > div {
+          min-width: 0 !important;
+        }
+      }
+    </style>
+  </footer>
+</body>
+
+</html>
